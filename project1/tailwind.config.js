@@ -5,6 +5,11 @@ module.exports = {
     extend: {
       backgroundImage:{
         'bgImg': "url('/images/background.jpg')"
+      },
+      fontFamily:{
+        poppins: 'Poppins',
+        ubuntu: 'Ubuntu',
+        laila: 'Laila'
       }
     },
   },
