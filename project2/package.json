@@ -1,11 +1,10 @@
 {
-  "name": "project1",
+  "name": "project2",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "index.js",
   "scripts": {
-    "start": "vite",
-    "build": "vite build"
+    "start": "vite"
   },
   "keywords": [],
   "author": "",
