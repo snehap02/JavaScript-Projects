@@ -15,6 +15,9 @@ module.exports = {
       },
       fontFamily:{
         onlyFont: 'Playfair Display'
+      },
+      transitionTimingFunction:{
+        cubic: 'cubic-bezier(0.1,2.7,0.58,1)'
       }
     },
   },
