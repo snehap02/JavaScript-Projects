@@ -3,3 +3,4 @@
 | <h2>Project Name</h2> | <h2>Github Repo Link</h2> | <h2>Live Demo</h2> |
 | :---:         |     :---:      |          :---: |
 | 🥁 Drum Kit   | [Project1 Repo](https://github.com/snehap02/JavaScript30-30Projects/tree/main/project1)    | [Drum Kit DEMO](https://drum-kit-js30.netlify.app/)    |
+| 🕗 Clock   | [Project2 Repo](https://github.com/snehap02/JavaScript30-30Projects/tree/main/project2)    | [Clock DEMO](https://clock-project2.netlify.app/)    |
