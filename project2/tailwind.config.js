@@ -8,6 +8,12 @@ module.exports = {
         lightbrown: '#4a3612',
         brownyellow: '#d1a24f',
         maddyBrown: '#574525'
+      },
+      backgroundImage:{
+        'image': 'url(/images/back.jpg)'
+      },
+      fontFamily:{
+        onlyFont: 'Playfair Display'
       }
     },
   },
