@@ -2,7 +2,17 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        bg: 'url("./images/background.png")'
+      },
+      colors:{
+        button: '#E50914'
+      },
+      fontFamily:{
+        roboto: 'Roboto'
+      }
+    },
   },
   plugins: [],
 }
