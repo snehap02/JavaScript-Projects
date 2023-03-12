@@ -10,7 +10,8 @@ module.exports = {
         button: '#E50914'
       },
       fontFamily:{
-        roboto: 'Roboto'
+        roboto: 'Roboto',
+        poppins: 'Poppins'
       }
     },
   },

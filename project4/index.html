@@ -7,26 +7,59 @@
     <link rel="icon" type="image/x-icon" href="./images/favicon.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="style.css">
-    <title>Netflix - (Clone)</title>
+    <title>Netflix India</title>
 </head>
 <body>
-    <header class="bg-bg h-[540px] bg-cover xl:h-[90vh]">
+    <header class="bg-bg h-[540px] bg-cover xl:h-[90vh]" id="head">
 
-        <nav class="bg-gradient-to-b from-black px-4 flex justify-between items-center">
-            <div>
-                <img src="./images/homeLogo.png" alt="" class="w-32">
+        <nav class="bg-gradient-to-b from-black px-4 flex justify-between items-center" id="nav">
+            <div class="mt-2">
+                <img src="./images/homeLogo.png" alt="" class="w-32" id="logo-img">
             </div>
             
+            <div class="text-white flex gap-2 pt-2" id="whole-container">
+                <div class="select-container -ml-44 md:-ml-56" id="select-field">
+                    <div class="flex border px-2 gap-2 rounded-md border-zinc-500 py-1">
+                        <span class="material-symbols-outlined">
+                            language
+                        </span>
+                        <span class="hidden md:block" id="select-text">English</span>
+                        <span class="material-symbols-outlined">
+                            arrow_drop_down
+                        </span>
+                    </div>
+                </div>
+                <a href="./forms.html" class="bg-button font-roboto font-medium py-1 px-3 rounded-md fixed -ml-20">Sign In</a>
+            </div>
         </nav>
 
-        <section class="header-details">
+        <dialog open="open" class="modal-container hidden  bg-black bg-opacity-70 sm:-mt-3 rounded-xl mt-20 border-b-2 border-gray-400 border-t-2">
+            <div class="inner-con flex justify-center text-white p-20 sm:px-48 sm:py-40 text-xl">
+                <ul class="font-poppins tracking-wide flex  flex-col" id="list">
+                    <li class="options flex gap-3">
+                        <span class="material-symbols-outlined">
+                            language
+                        </span>
+                        <a href="#" target="_self">English</a>
+                    </li>
+                    <li class="options mt-5 flex gap-3">
+                        <span class="material-symbols-outlined">
+                            language
+                        </span>
+                        <a href="hindi.html" target="_self">हिंदी</a>
+                    </li>
+                </ul>
+            </div>
+        </dialog>
 
+        <section class="header-details flex justify-center items-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, velit quis, harum distinctio quasi ipsum nobis earum rem iusto labore sapiente recusandae beatae adipisci veritatis nam illum magni atque minima.
         </section>
 
+        
+        
     </header>
     <div class="h-[10px] bg-zinc-600"></div>
-    
-
     <script src="script.js"></script>
 </body>
 </html>
