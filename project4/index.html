@@ -14,26 +14,26 @@
 
         <nav class="bg-gradient-to-b from-black px-4 flex justify-between items-center" id="nav">
             <div class="mt-2">
-                <img src="./images/homeLogo.png" alt="" class="w-32" id="logo-img">
+                <img src="./images/homeLogo.png" alt="" class="w-24" id="logo-img">
             </div>
             
             <div class="text-white flex gap-2 pt-2" id="whole-container">
-                <div class="select-container -ml-44 md:-ml-56" id="select-field">
-                    <div class="flex border px-2 gap-2 rounded-md border-zinc-500 py-1">
+                <div class="select-container -ml-44 sm:-ml-60" id="select-field">
+                    <div class="flex border px-2 gap-3 rounded-md border-zinc-500 py-1">
                         <span class="material-symbols-outlined">
                             language
                         </span>
-                        <span class="hidden md:block" id="select-text">English</span>
+                        <span class="hidden sm:block" id="select-text">English</span>
                         <span class="material-symbols-outlined">
                             arrow_drop_down
                         </span>
                     </div>
                 </div>
-                <a href="./forms.html" class="bg-button font-roboto font-medium py-1 px-3 rounded-md fixed -ml-20">Sign In</a>
+                <a href="./forms.html" class="bg-button font-roboto font-medium py-1 px-3 rounded-md">Sign In</a>
             </div>
         </nav>
 
-        <dialog open="open" class="modal-container hidden  bg-black bg-opacity-70 sm:-mt-3 rounded-xl mt-20 border-b-2 border-gray-400 border-t-2">
+        <dialog open="open" class="modal-container hidden  bg-black bg-opacity-90 sm:-mt-3 rounded-xl mt-20 border-b-2 border-gray-400 border-t-2">
             <div class="inner-con flex justify-center text-white p-20 sm:px-48 sm:py-40 text-xl">
                 <ul class="font-poppins tracking-wide flex  flex-col" id="list">
                     <li class="options flex gap-3">
@@ -52,14 +52,47 @@
             </div>
         </dialog>
 
-        <section class="header-details flex justify-center items-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, velit quis, harum distinctio quasi ipsum nobis earum rem iusto labore sapiente recusandae beatae adipisci veritatis nam illum magni atque minima.
+        <section class="header-details flex justify-center items-center flex-col text-white mx-5 mt-4">
+            <div class="text-center"><h1 class="text-3xl font-roboto font-bold tracking-wide mt-14 b-sm:mt-24">Unlimited movies, TV shows and more.</h1></div>
+            <div class="text-center"><h2 class="text-lg font-roboto mt-4">Watch anywhere. Cancel anytime.</h2></div>
+            <div class="text-center"><h2 class="text-lg font-roboto mt-6 px-8">Ready to Watch? Enter your email to create or restart your membership.</h2></div>
+            <div class="text-center">
+                <form action="" class="mt-6 flex flex-col b-sm:flex-row b-sm:gap-9 sm:gap-10">
+                    <input type="email" name="email" value="" placeholder="Email address" class="bg-black bg-opacity-70 py-3 w-72 px-3 border border-gray-700 rounded-md font-roboto outline-1 outline-gray-200 b-sm:h-14 b-sm:px-3 b-sm:ml-12" required>
+                    <div class="bg-button mx-14 mt-4 rounded-md flex justify-center items-center py-3  b-sm:-mt-0 b-sm:px-5 b-sm:-ml-8 cursor-pointer">
+                        <button class="bg-button rounded-md text-lg tracking-wide font-medium font-roboto sm:text-2xl sm:font-bold">Get Started
+                        </button>
+                        <span class="material-symbols-outlined">
+                            arrow_forward_ios
+                        </span>
+                    </div>
+                </form>
+            </div>
         </section>
-
-        
-        
     </header>
-    <div class="h-[10px] bg-zinc-600"></div>
+    <div class="h-[10px] bg-zinc-700"></div>
+
+    <section class="bg-black text-white px-5 grid grid-cols-1">
+        <div>
+            <div><h1>Enjoy on your TV.</h1></div>
+            <div></div>
+        </div>
+        <div>
+
+        </div>
+    </section>
+    <div class="h-[10px] bg-zinc-700"></div>
+
+    <section></section>
+    <div class="h-[10px] bg-zinc-700"></div>
+
+    <section class="bg-black text-white px-4">
+        
+    </section>
+    <div class="h-[10px] bg-zinc-700"></div>
+
+    <section></section>
+    <div class="h-[10px] bg-zinc-700"></div>
     <script src="script.js"></script>
 </body>
 </html>

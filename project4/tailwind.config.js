@@ -12,6 +12,11 @@ module.exports = {
       fontFamily:{
         roboto: 'Roboto',
         poppins: 'Poppins'
+      },
+      screens:{
+        'b-sm': '600px',
+        'b-lg': '960px',
+        'b-lg1': '964px'
       }
     },
   },
