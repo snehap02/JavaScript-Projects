@@ -18,7 +18,10 @@ module.exports = {
         'b-lg': '960px',
         'b-lg1': '964px',
         'sm-small': '408px',
-        'sm-big': '594px'
+        'sm-big1': '550px',
+        'sm-big': '594px',
+        'md-large': '770px',
+        'md-large1': '860px'
       }
     },
   },
