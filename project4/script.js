@@ -6,6 +6,7 @@ const plus = document.getElementsByClassName('add');
 const closee = document.getElementsByClassName('close');
 const signs = document.getElementsByClassName('sign');
 const container = document.getElementsByClassName('accord-container');
+const horizantal = document.getElementsByClassName('line');
 
 
 selectField.addEventListener('click', () => {
@@ -20,11 +21,13 @@ for(let i = 0; i < accordion.length; i++){
             closee[i].classList.remove('hidden');
             plus[i].classList.add('hidden');
             accordion[i].style.backgroundColor = '#333131';
+            horizantal[i].classList.remove('hidden');
             
         }else{
             closee[i].classList.add('hidden');
             plus[i].classList.remove('hidden');
             accordion[i].style.backgroundColor = '#242323';
+            horizantal[i].classList.add('hidden');
         }
     })
 }
