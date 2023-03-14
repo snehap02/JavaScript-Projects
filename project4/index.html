@@ -10,6 +10,7 @@
     <title>Netflix India</title>
 </head>
 <body>
+    <!-- header -->
     <header class="bg-bg h-[540px] bg-cover xl:h-[90vh]" id="head">
 
         <nav class="bg-gradient-to-b from-black px-4 flex justify-between items-center" id="nav">
@@ -72,6 +73,7 @@
     </header>
     <div class="h-[8px] bg-[#242323]"></div>
 
+    <!-- First section -->
     <section class="bg-black text-white px-5 grid grid-cols-1 b-lg1:grid-cols-2">
         <div>
             <div class="text-center"><h1 class="text-3xl font-roboto font-bold tracking-wide mt-14 b-sm:mt-24">Enjoy on your TV.</h1></div>
@@ -83,6 +85,7 @@
     </section>
     <div class="h-[8px] bg-[#242323]"></div>
 
+    <!-- second section -->
     <section class="bg-black text-white px-5 flex flex-col b-lg1:flex-row">
         <div>
             <div class="text-center"><h1 class="text-3xl font-roboto font-bold tracking-wide mt-14 b-sm:mt-24">Download your shows to watch offline.</h1></div>
@@ -94,6 +97,7 @@
     </section>
     <div class="h-[8px] bg-[#242323]"></div>
 
+    <!-- third section -->
     <section class="bg-black text-white px-5 grid grid-cols-1 b-lg1:grid-cols-2">
         <div>
             <div class="text-center"><h1 class="text-3xl font-roboto font-bold tracking-wide mt-14 b-sm:mt-24">Watch everywhere.</h1></div>
@@ -105,6 +109,7 @@
     </section>
     <div class="h-[8px] bg-[#242323]"></div>
 
+    <!-- Fourth section -->
     <section class="bg-black text-white px-5 flex flex-col b-lg1:flex-row">
         <div>
             <div class="text-center"><h1 class="text-3xl font-roboto font-bold tracking-wide mt-14 b-sm:mt-24">Create profiles for children.</h1></div>
@@ -116,6 +121,7 @@
     </section>
     <div class="h-[8px] bg-[#242323]"></div>
 
+    <!-- Questions -->
     <section class="bg-black text-white px-5">
         <div>
             <div class="text-center"><h1 class="text-3xl font-roboto font-bold tracking-wide pt-14 b-sm:mt-24">Frequently Asked Questions</h1></div>
@@ -268,13 +274,61 @@
     </section>
     <div class="h-[8px] bg-[#242323]"></div>
 
+    <!-- Footer -->
     <footer class="bg-black text-white px-6 font-roboto tracking-wide">
         <div class="pt-6">
-            <h1>Questions? Call <span class="underline">000-800-919-1694</span></h1>
+            <h1>Questions? Call <span class="underline tracking-wider">000-800-919-1694</span></h1>
         </div>
 
-        <div class="grid grid-cols-1 sm-small:grid-cols-2 sm-big:grid-cols-3">
-            
+        <div class="grid grid-cols-1 sm-small:grid-cols-2 sm-big:grid-cols-3 py-8 underline text-sm font-light">
+            <div>
+                <ul>
+                    <li class="pt-4"><a class="py-2">FAQ</a></li>
+                    <li class="pt-4"><a class="py-2">Gift Card Terms</a></li>
+                    <li class="pt-4"><a class="py-2">Help center</a></li>
+                    <li class="pt-4"><a class="py-2">Account</a></li>
+                    <li class="pt-4"><a class="py-2">Media Center</a></li>
+                    <li class="pt-4"><a class="py-2">Investor Relations</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="pt-4"><a class="py-2">Jobs</a></li>
+                    <li class="pt-4"><a class="py-2">Ways to Watch</a></li>
+                    <li class="pt-4"><a class="py-2">Terms of Use</a></li>
+                    <li class="pt-4"><a class="py-2">Privacy</a></li>
+                    <li class="pt-4"><a class="py-2">Cookie Preferences</a></li>
+                    <li class="pt-4 hidden sm-small:block sm-big:hidden"><a class="py-2">Speed Test</a></li>
+                    <li class="pt-4 hidden sm-small:block sm-big:hidden"><a class="py-2">Legal Notices</a></li>
+                    <li class="pt-4 hidden sm-small:block sm-big:hidden"><a class="py-2">Only on Netflix</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="sm-small:-mt-14 sm-big:-mt-0">
+                    <li class="pt-4"><a class="py-2">Corporate Information</a></li>
+                    <li class="pt-4"><a class="py-2">Contact Us</a></li>
+                    <li class="pt-4 sm-small:hidden sm-big:block"><a class="py-2">Speed Test</a></li>
+                    <li class="pt-4 sm-small:hidden sm-big:block"><a class="py-2">Legal Notices</a></li>
+                    <li class="pt-4 sm-small:hidden sm-big:block"><a class="py-2">Only on Netflix</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="select-container w-36" id="select-field">
+            <div class="flex border px-2 gap-3 rounded-md border-zinc-500 py-1">
+                <span class="material-symbols-outlined">
+                    language
+                </span>
+                <span id="select-text">English</span>
+                <span class="material-symbols-outlined">
+                    arrow_drop_down
+                </span>
+            </div>
+        </div>
+
+        <div class="font-roboto text-sm font-extralight mt-6 pb-8">
+            Netflix India
         </div>
     </footer>
 
