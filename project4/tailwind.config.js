@@ -11,7 +11,8 @@ module.exports = {
       },
       fontFamily:{
         roboto: 'Roboto',
-        poppins: 'Poppins'
+        poppins: 'Poppins',
+        nunito: 'Nunito Sans'
       },
       screens:{
         'b-sm': '600px',
@@ -21,7 +22,9 @@ module.exports = {
         'sm-big1': '550px',
         'sm-big': '594px',
         'md-large': '770px',
-        'md-large1': '860px'
+        'md-large1': '860px',
+        'after-lg': '1020px',
+        'big-xl': '1302px'
       }
     },
   },
