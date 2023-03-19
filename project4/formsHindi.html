@@ -13,12 +13,13 @@
     <!-- Navbar -->
     <nav class="px-4">
         <div class="mt-2">
-            <img src="./images/homeLogo.png" alt="" class="w-24 b-lg:w-48" id="logo-img">
+            <a href="hindi.html"><img src="./images/homeLogo.png" alt="" class="w-24 b-lg:w-48" id="logo-img"></a>
+            
         </div>
     </nav>
 
     <!-- form -->
-    <form action="#" id="form" class="p-5 -mt-4" onsubmit="return validation()">
+    <form action="#" id="form" class="p-5 -mt-4" onsubmit="return validate()">
         <div>
             <h1 class="font-medium text-white text-3xl tracking-wide">साइन इन करें</h1>
         </div>
@@ -81,7 +82,6 @@
                 language
             </span>
             <select name="lang" id="lang" class="bg-black outline-none" onchange="location = this.value;">
-                <!-- <option value="">English</option> -->
                 <option value="forms.html">English</option>
                 <option value="formsHindi.html" selected>हिंदी</option>
             </select>

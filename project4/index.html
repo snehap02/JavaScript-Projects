@@ -321,16 +321,14 @@
         </div>
 
 
-        <div class="select-container w-36" id="select-field">
-            <div class="flex border px-2 gap-3 rounded-md border-zinc-500 py-1">
-                <span class="material-symbols-outlined">
-                    language
-                </span>
-                <span id="select-text">English</span>
-                <span class="material-symbols-outlined">
-                    arrow_drop_down
-                </span>
-            </div>
+        <div class="mt-2 p-3 border border-gray-700 w-32 flex gap-2 text-sm">
+            <span class="material-symbols-outlined text-xl">
+                language
+            </span>
+            <select name="lang" id="lang" class="bg-black outline-none" onchange="location = this.value;">
+                <option value="index.html" selected>English</option>
+                <option value="hindi.html">हिंदी</option>
+            </select>
         </div>
 
         <div class="font-roboto text-sm font-extralight mt-6 pb-8">
