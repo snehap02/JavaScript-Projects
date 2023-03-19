@@ -5,6 +5,7 @@ const check = document.getElementById('checkicon');
 const checkInp = document.getElementById('checkbox');
 const learnMore = document.getElementById('learnmore');
 const txt = document.getElementById('addText');
+const line = document.getElementById('line');
 
 function validation(){
     if(mail == "" && pass == ""){
@@ -20,4 +21,5 @@ function validation(){
 learnMore.addEventListener('click', () => {
     learnMore.classList.add('hidden');
     txt.innerHTML = 'The information collected by Google reCAPTCHA is subject to the Google <span class="text-indigo-700"> Privacy Policy </span> and <span class="text-indigo-700">Terms of Service</span>, and is used for providing, maintaining, and improving the reCAPTCHA service and for general security purposes (it is not used for personalised advertising by Google).';
+    line.classList.add('-mt-2');
 })

@@ -17,12 +17,13 @@
         </div>
     </nav>
 
-    <form action="#" id="form" class="p-5 -mt-3" onsubmit="return validation()">
+    <!-- form -->
+    <form action="#" id="form" class="p-5 -mt-4" onsubmit="return validation()">
         <div>
             <h1 class="font-bold text-white text-3xl tracking-wide">Sign In</h1>
         </div>
 
-        <div class="relative mt-8">
+        <div class="relative mt-6">
             <input type="email" id="email" name="email" value=""  class="bg-neutral-700 py-3 px-3 rounded-md font-poppins w-full peer placeholder-transparent text-white outline-none focus:invalid:border-b-[3px] focus:invalid:border-[#e38400]" placeholder="Email">
             <label for="email" class="font-poppins absolute left-3 b-sm:left-[60px] text-gray-400 text-sm peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-4 b-sm:peer-placeholder-shown:top-4 transition-all peer-focus:-top-0 b-sm:peer-focus:-top-0 peer-focus:text-xs peer-focus:text-gray-400 tracking-wide">Email or phone number</label>
             <span class="text-[#e38400] text-sm tracking-wider focus:hidden" id="emailField"></span>
@@ -34,11 +35,11 @@
             <span class="text-[#e38400] text-sm tracking-wider" id="passField"></span>
         </div>
 
-        <div class="bg-button mt-12 font-medium text-white cursor-pointer py-3 text-lg tracking-wide px-3 rounded-md text-center w-full">
+        <div class="bg-button mt-9 font-medium text-white cursor-pointer py-3 text-lg tracking-wide px-3 rounded-md text-center w-full">
             <button type="submit">Sign In</button>
         </div>
 
-        <div class="mt-5 flex justify-between font-poppins text-stone-300 text-sm">
+        <div class="mt-3 flex justify-between font-poppins text-stone-300 text-[12px]">
             <div class="flex gap-2">
                 <input type="checkbox" name="check" id="checkbox" class="w-5 accent-gray-500 bg-gray-500 rounded-sm appearance-none checked:bg-white peer relative">
                 <label for="checkbox" class="">Remember me</label>
@@ -46,7 +47,7 @@
                     check
                 </span> -->
             </div>
-            <h1>Need help?</h1>
+            <a>Need help?</a>
         </div>
 
         <div class="font-poppins text-stone-500 flex gap-1 mt-5">
@@ -54,24 +55,35 @@
             <a href="index.html" class="font-medium text-white">Sign up now<span class="text-gray-600">.</span></a>
         </div>
 
-        <div class="mt-5 font-poppins text-stone-300 text-[12px] tracking-wide">
+        <div class="mt-2 font-poppins text-stone-300 text-[12px] tracking-wide">
             <h1>This page is protected by Google reCAPTCHA to ensure you're not a bot. <span class="text-indigo-700" id="learnmore">Learn more.</span></h1>
             <h1 class="mt-3" id="addText"></h1>
         </div>
     </form>
 
-    <div class="h-[2px] bg-[#323232]"></div>
+    <div class="h-[2px] bg-[#323232] mt-24" id="line"></div>
 
-    <footer class="mt-6 font-poppins text-stone-300 px-5">
-        <h1>Questions? Call <span class="tracking-wider">000-800-919-1694</span></h1>
+    <!-- footer -->
+    <footer class="mt-3 font-poppins text-stone-300 px-5 pb-16">
+        <h1 class="pt-3">Questions? Call <span class="tracking-wider">000-800-919-1694</span></h1>
 
-        <div class="mt-6 text-sm grid grid-cols-2 sm:grid-cols-3">
+        <div class="mt-6 text-[13px] grid grid-cols-2 sm:grid-cols-3">
             <a href="#">FAQ</a>
             <a href="#">Help Center</a>
-            <a href="#" class="pt-2">Terms of Use</a>
-            <a href="#" class="pt-2">Privacy</a>
-            <a href="#" class="pt-2">Cookie Preferences</a>
-            <a href="#" class="pt-2">Corporate Information</a>
+            <a href="#" class="pt-4">Terms of Use</a>
+            <a href="#" class="pt-4">Privacy</a>
+            <a href="#" class="pt-4">Cookie Preferences</a>
+            <a href="#" class="pt-4">Corporate Information</a>
+        </div>
+
+        <div class="mt-9 px-3 py-2 border border-gray-700 w-32 flex gap-2 text-sm">
+            <span class="material-symbols-outlined text-xl">
+                language
+            </span>
+            <select name="lang" id="lang" class="bg-black outline-none" onchange="location = this.value;">
+                <option value="forms.html" selcted>English</option>
+                <option value="formsHindi.html">हिंदी</option>
+            </select>
         </div>
     </footer>
 
