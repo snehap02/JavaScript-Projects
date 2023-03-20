@@ -1,4 +1,4 @@
-<h1 align = center> Javascript30 - 30 PROJECTS </h1>
+<h1 align = center> HTML, CSS, JS PROJECTS </h1>
 
 | <h2>Project Name</h2> | <h2>Github Repo Link</h2> | <h2>Live Demo</h2> |
 | :---:         |     :---:      |          :---: |
