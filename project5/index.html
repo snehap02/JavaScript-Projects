@@ -5,28 +5,123 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, maximum-scale=1.0">
     <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="style.css">
     <title>Tabs</title>
 </head>
-<body class="bg-[#232946]">
-    <header class="bg-[#232946] border-b border-white fixed w-full">
-        <nav class="flex justify-between px-6 py-3 text-[#fffffe]">
-            <div><h1 class="text-xl font-medium uppercase leading-10 text-[#fffffe]">Logo.</h1></div>
-            <div><a href="" class="tracking-wider font-medium leading-10 bg-[#eebbc3] text-[#232946] px-3 py-2 rounded-sm">Source Code</a></div>
+<body class="bg-[#fffffe]">
+    <header class="bg-[#fffffe] shadow-lg md:py-2 md:px-14 z-40 fixed md:sticky w-full">
+        <nav class="flex justify-between px-6 py-3">
+            <div><h1 class="text-3xl font-medium leading-[40px]">Logo.</h1></div>
+            <div><a href="" class="tracking-wider font-medium leading-[40px] bg-[#6246ea] text-[#fffffe] px-3 py-2 rounded-sm">Source Code</a></div>
         </nav>
     </header>
 
-    <section class="bg-[#b8c1ec] mt-16 h-screen w-20 fixed md:hidden">
-        
+    <section class="tabs vertical-tabs bg-[#fffffe] mt-16 h-screen w-20 sm:w-40 fixed md:hidden shadow-lg shadow-neutral-500">
+            <div class="container flex flex-col gap-10 py-28">
+                <div id="tab-1" class="tab-item cursor-pointer py-4 transition hover:ease-in-out duration-500 sm:flex sm:gap-3 sm:text-xl sm:font-medium border-l-4 border-[#6246ea]">
+                    <span class="material-symbols-outlined ml-7 sm:text-2xl">
+                        home
+                    </span>
+                    <h2 class="hidden sm:block">Home</h2>
+                </div>
+                <div id="tab-2" class="tab-item cursor-pointer py-4 transition duration-500 hover:ease-in-out sm:flex sm:gap-3 sm:text-xl sm:font-medium">
+                    <span class="material-symbols-outlined ml-7 sm:text-2xl">
+                        person
+                    </span>
+                    <h2 class="hidden sm:block">About</h2>
+                </div>
+                <div id="tab-3" class="tab-item cursor-pointer py-4 transition duration-500 hover:ease-in-out sm:flex sm:gap-3 sm:text-xl sm:font-medium">
+                    <span class="material-symbols-outlined ml-7 sm:text-2xl">
+                        list_alt
+                    </span>
+                    <h2 class="hidden sm:block">Projects</h2>
+                </div>
+                <div id="tab-4" class="tab-item cursor-pointer py-4 transition duration-500 hover:ease-in-out sm:flex sm:gap-3 sm:text-xl sm:font-medium">
+                    <span class="material-symbols-outlined ml-7 sm:text-2xl">
+                        call
+                    </span>
+                    <h2 class="hidden sm:block">Contact</h2>
+                </div>
+            </div>
     </section>
 
-    <section class="ml-24 pt-20 md:ml-0">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, possimus est officiis dolorem quod a accusamus deleniti odit dolore nihil quia dignissimos provident ipsam laborum similique eaque explicabo, velit sed non error cum tempore. Voluptatem totam sed veritatis asperiores unde maiores voluptates doloremque quam, ullam dolorem! Optio repudiandae labore deserunt exercitationem nihil autem et omnis suscipit culpa consequatur vel ad ducimus, commodi, adipisci harum ipsum velit sunt expedita nam fugiat quas aliquam deleniti, eos veniam? Cupiditate eaque unde aut illo beatae nobis praesentium commodi, corrupti quis nemo architecto non quos, aliquid quae voluptatem nam repudiandae distinctio eum. Velit praesentium quisquam in aliquam doloremque asperiores, debitis rerum mollitia eveniet id numquam quos optio itaque aperiam nobis? Laborum adipisci totam pariatur. Assumenda quas consectetur perferendis laudantium aliquid corporis voluptate tempora doloremque modi nisi? Placeat ut, officia exercitationem culpa sed earum deleniti nemo, magnam, molestiae magni iste tempora perspiciatis explicabo itaque corporis laudantium ad consectetur aut corrupti iusto! Maxime nemo eos veniam molestias repellat neque sed quos voluptatum quo, ipsa saepe odit explicabo dolores fugit nesciunt ut aperiam! Quisquam ratione officia excepturi pariatur atque quos placeat iusto non vel ex? Dicta veritatis, quod consectetur nulla neque maxime cupiditate, consequuntur fuga, nam placeat quam?
+    <section class="tabs horizontal-tabs hidden md:block mt-10 lg:px-48 xl:px-96">
+        <div class="container flex justify-center gap-10 py-3 min-w-full">
+            <div id="tab-1" class="tab-item cursor-pointer py-4 transition hover:ease-in-out duration-500 sm:flex sm:gap-3 sm:text-xl sm:font-medium border-l-4 border-[#6246ea]">
+                <span class="material-symbols-outlined ml-7 sm:text-2xl">
+                    home
+                </span>
+                <h2 class="hidden sm:block">Home</h2>
+            </div>
+            <div id="tab-2" class="tab-item cursor-pointer py-4 transition duration-500 hover:ease-in-out sm:flex sm:gap-3 sm:text-xl sm:font-medium">
+                <span class="material-symbols-outlined ml-7 sm:text-2xl">
+                    person
+                </span>
+                <h2 class="hidden sm:block">About</h2>
+            </div>
+            <div id="tab-3" class="tab-item cursor-pointer py-4 transition duration-500 hover:ease-in-out sm:flex sm:gap-3 sm:text-xl sm:font-medium">
+                <span class="material-symbols-outlined ml-7 sm:text-2xl">
+                    list_alt
+                </span>
+                <h2 class="hidden sm:block">Projects</h2>
+            </div>
+            <div id="tab-4" class="tab-item cursor-pointer py-4 transition duration-500 hover:ease-in-out sm:flex sm:gap-3 sm:text-xl sm:font-medium">
+                <span class="material-symbols-outlined ml-7 sm:text-2xl">
+                    call
+                </span>
+                <h2 class="hidden sm:block">Contact</h2>
+            </div>
+        </div>
+    </section>
+    
+    <section class="tab-content ml-24 sm:ml-48 pt-20 md:ml-0 md:px-16 md:flex md:justify-center md:items-center md:mb-10">
+        <div class="container md:py-5 md:bg-neutral-100 md:-mt-16 md:w-[630px] md:px-6 md:shadow-xl">
+            <div id="tab-1-content" class="tab-content-item hidden show">
+                <div class="tab-content-inner flex md:justify-center md:items-center flex-col">
+                    <h2 class="text-3xl tracking-wider pt-10 md:pt-0">Home</h2>
+                    <p class="text-lg pt-10 px-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo neque repudiandae nemo maxime? Eligendi asperiores voluptatum praesentium quos dolor repudiandae.</p>
+                    <p class="text-lg pt-4 px-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo neque repudiandae nemo maxime? Eligendi asperiores voluptatum praesentium quos dolor repudiandae.</p>
+                </div>
+            </div>
+            <div id="tab-2-content" class="tab-content-item hidden">
+                <div class="tab-content-inner flex flex-col md:justify-center md:items-center">
+                    <h2 class="text-3xl tracking-wider pt-10 md:pt-0">About Me</h2>
+                    <p class="text-lg pt-10 px-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo neque repudiandae nemo maxime? Eligendi asperiores voluptatum praesentium quos dolor repudiandae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, ratione?</p>
+                </div>
+            </div>
+            <div id="tab-3-content" class="tab-content-item hidden">
+                <div class="tab-content-inner flex flex-col md:justify-center md:items-center">
+                    <h2 class="text-3xl tracking-wider pt-10 md:pt-0">My Project</h2>
+                    <p class="text-lg pt-10 px-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo neque repudiandae nemo maxime? Eligendi asperiores voluptatum praesentium quos dolor repudiandae.</p>
+                    <p class="text-lg pt-4 px-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, atque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est vero ex saepe, eius nisi obcaecati quibusdam expedita blanditiis culpa aspernatur?</p>
+                </div>
+            </div>
+            <div id="tab-4-content" class="tab-content-item hidden">
+                <div class="tab-content-inner flex flex-col md:justify-center md:items-center">
+                    <h2 class="text-3xl tracking-wider pt-10 md:pt-0">Contact Me</h2>
+                    <form action="" class="pt-10">
+                        <div class="flex flex-col gap-2">
+                            <label for="name" class="text-lg tracking-wider">Name</label>
+                            <input type="text" name="name" id="name" required class="outline-none border-2 border-neutral-300 rounded-md py-2 w-64 500:w-96 px-1 500:px-3">
+                        </div>
+                        <div class="flex flex-col gap-2 pt-6">
+                            <label for="mail" class="text-lg tracking-wider">Email</label>
+                            <input type="email" name="email" id="mail" required class="outline-none border-2 border-neutral-300 rounded-md py-2 w-64 500:w-96 px-1 500:px-3">
+                        </div>
+                        <div class="pt-6 flex flex-col gap-2">
+                            <label for="message" class="text-lg tracking-wider">Your Message</label>
+                            <textarea name="msg" id="message" cols="30" rows="5" class="outline-none border-2 border-neutral-300 rounded-md py-2 w-64 500:w-96 px-1 500:px-3"></textarea>
+                        </div>
+                        <div class="mt-7 cursor-pointer bg-[#6246ea] text-center w-64 rounded-lg 500:w-96 500:mb-2">
+                            <button class="text-lg tracking-widest uppercase py-2">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            </div>
     </section>
 
-    <!-- <footer class="bg-black h-full md:bottom-0">
-        asjdhakjd
-    </footer> -->
     <script src="script.js"></script>
 </body>
 </html>
