@@ -2,7 +2,13 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        poppins: 'Poppins',
+        raleway: 'Raleway',
+        roboto: 'Roboto'
+      }
+    },
   },
   plugins: [],
 }
