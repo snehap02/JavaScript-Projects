@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Review Page</title>
 </head>
@@ -12,9 +13,30 @@
     <main>
         <section id="container">
             <!-- title -->
-            <div class="title pt-36">
-                <h1 class="text-3xl">Reviews</h1>
+            <div class="title pt-24 flex flex-col justify-center items-center">
+                <h1 class="text-3xl font-roboto tracking-widest">Reviews</h1>
+                <div class="underline bg-[#3C2A21] h-[2px] w-20 mt-2"></div>
             </div>
+            <!-- review -->
+            <article class="review flex flex-col justify-center items-center mt-10 bg-[#F7E2D6] shadow-lg py-10 shadow-[#a57a7a] rounded-lg w-[450px]">
+                <div class="img-container">
+                    <img src="./images/person1.jpg" alt="" id="person1" class="rounded-full w-28 h-28 object-cover shadow-lg shadow-[#a57a7a]">
+                </div>
+                <h2 id="author" class="pt-4 text-lg font-poppins tracking-wider font-medium">Jennifer Johnson</h2>
+                <h2 id="job" class="font-raleway uppercase italic text-xs text-[#ae896a]">Front-end Developer</h2>
+                <p id="info" class="pt-6 px-6 text-center font-poppins tracking-wider text-sm ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum doloremque iure recusandae, suscipit dolor minima inventore in excepturi voluptatibus odio?</p>
+                <!-- buttons -->
+                <div class="button-box flex gap-8 pt-7">
+                    <button class="prevBtn cursor-pointer">
+                        <i class="fa-solid fa-chevron-left text-[#733C3C] text-2xl"></i>
+                    </button>
+                    <button class="nextBtn cursor-pointer">
+                        <i class="fa-solid fa-chevron-right text-[#733C3C] text-2xl"></i>
+                    </button>
+                </div>
+                <!-- random Button -->
+                <button class="random-btn mt-6 px-5 py-2 rounded-lg text- font-medium font-raleway tracking-wider bg-[#815B5B] text-[#FFF8EA]">Random</button>
+            </article>
         </section>
     </main>
 
